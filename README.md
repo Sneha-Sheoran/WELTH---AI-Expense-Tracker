@@ -68,8 +68,7 @@ AI-Powered Monthly Insights
 
 📸 Preview
 
-
-
+![alt text](image-1.png)
 
 🔗 Links
 
