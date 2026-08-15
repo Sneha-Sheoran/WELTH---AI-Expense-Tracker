@@ -5,7 +5,6 @@ manage multiple accounts, track income and expenses, monitor budgets,
 and understand their financial activity through analytics and AI-powered
 reports.
 
-📸 Preview
 
 ![alt text](image-1.png)
 
@@ -70,9 +69,6 @@ Budget Monitoring
         ↓
 AI-Powered Monthly Insights
 
-📸 Preview
-
-![alt text](image-1.png)
 
 🔗 Links
 
