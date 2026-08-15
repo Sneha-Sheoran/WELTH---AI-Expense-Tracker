@@ -5,52 +5,56 @@ manage multiple accounts, track income and expenses, monitor budgets,
 and understand their financial activity through analytics and AI-powered
 reports.
 
+📸 Preview
+
+![alt text](image-1.png)
+
 ✨ Features
 
-Secure Authentication --- User-specific access and financial
+🔹Secure Authentication --- User-specific access and financial
 data management.
 
-Multi-Account Management --- Create and manage multiple
+🔹Multi-Account Management --- Create and manage multiple
 financial accounts with a configurable default account.
 
-Transaction Tracking --- Record and organize income and expenses
+🔹Transaction Tracking --- Record and organize income and expenses
 with account-level financial history.
 
-Interactive Dashboard --- View balances, income, expenses, and
+🔹Interactive Dashboard --- View balances, income, expenses, and
 key financial activity in one place.
 
-Financial Analytics --- Visualize spending patterns and
+🔹Financial Analytics --- Visualize spending patterns and
 transaction activity through reports and charts.
 
-Recurring Transactions --- Manage recurring income and expenses
+🔹Recurring Transactions --- Manage recurring income and expenses
 for regular financial activity.
 
-Budget Monitoring --- Set spending limits and monitor progress
+🔹Budget Monitoring --- Set spending limits and monitor progress
 with budget alerts.
 
-AI Financial Reports --- Generate monthly AI-powered insights
+🔹AI Financial Reports --- Generate monthly AI-powered insights
 based on financial activity and spending patterns.
 
-Responsive UI --- Clean interface designed for desktop and
+🔹Responsive UI --- Clean interface designed for desktop and
 mobile experiences.
 
 🛠️ Tech Stack
 
-Frontend: Next.js, React.js, Tailwind CSS
+-Frontend: Next.js, React.js, Tailwind CSS
 
-Backend: Next.js Server Actions
+-Backend: Next.js Server Actions
 
-Database: PostgreSQL
+-Database: PostgreSQL
 
-ORM: Prisma
+-ORM: Prisma
 
-Authentication: Clerk
+-Authentication: Clerk
 
-AI: Google Gemini
+-AI: Google Gemini
 
-Background Jobs: Inngest
+-Background Jobs: Inngest
 
-Deployment: Vercel
+-Deployment: Vercel
 
 🧠 Core Workflow
 
