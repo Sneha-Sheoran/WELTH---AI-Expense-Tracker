@@ -8,6 +8,7 @@ import Link from 'next/link';
 import useFetch from '@/hooks/use-fetch';
 import { updateDefaultAccount } from '@/actions/accounts';
 import { toast } from 'sonner';
+import { useRouter } from 'next/navigation';
 
 const AccountCard = ({account}) => {
     const {name,type,balance,id,isDefault}=account;
@@ -33,14 +34,17 @@ const AccountCard = ({account}) => {
         }
 
         await updateDefaultFn(id);
+        
     };
+    const router = useRouter();
 
     useEffect (() => {
         if(updatedAccount?.success){
             toast.success("Default Account updated successfully");
+            router.refresh();
         }
 
-    },[updatedAccount]);
+    },[updatedAccount,router]);
 
     useEffect (() => {
         if(error){
@@ -51,12 +55,13 @@ const AccountCard = ({account}) => {
 
   return (
     <Card className="hover:shadow-md transition-shadow group relative">
-        <Link href={`/account/${id}`}>
+        {/* <Link href={`/account/${id}`}> */}
         <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
             <CardTitle className={"text-sm font-medium capitalize "}>{name}</CardTitle>
             <Switch checked={isDefault} onCheckedChange ={handleDefaultChange}
                 disabled={updateDefaultLoading} />
         </CardHeader>
+        <Link href={`/account/${id}`}>
         <CardContent>
             <div className="text-2xl font-bold">
                 {parseFloat(balance).toFixed(2)}
