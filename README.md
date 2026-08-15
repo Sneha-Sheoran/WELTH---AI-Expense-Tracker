@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+💰 Welth 
 
-## Getting Started
+Welth is a full-stack personal finance application that helps users
+manage multiple accounts, track income and expenses, monitor budgets,
+and understand their financial activity through analytics and AI-powered
+reports.
 
-First, run the development server:
+✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Secure Authentication --- User-specific access and financial
+data management.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Multi-Account Management --- Create and manage multiple
+financial accounts with a configurable default account.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Transaction Tracking --- Record and organize income and expenses
+with account-level financial history.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Interactive Dashboard --- View balances, income, expenses, and
+key financial activity in one place.
 
-## Learn More
+Financial Analytics --- Visualize spending patterns and
+transaction activity through reports and charts.
 
-To learn more about Next.js, take a look at the following resources:
+Recurring Transactions --- Manage recurring income and expenses
+for regular financial activity.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Budget Monitoring --- Set spending limits and monitor progress
+with budget alerts.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+AI Financial Reports --- Generate monthly AI-powered insights
+based on financial activity and spending patterns.
 
-## Deploy on Vercel
+Responsive UI --- Clean interface designed for desktop and
+mobile experiences.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🛠️ Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Frontend: Next.js, React.js, Tailwind CSS
+
+Backend: Next.js Server Actions
+
+Database: PostgreSQL
+
+ORM: Prisma
+
+Authentication: Clerk
+
+AI: Google Gemini
+
+Background Jobs: Inngest
+
+Deployment: Vercel
+
+🧠 Core Workflow
+
+User Authentication
+        ↓
+Account & Transaction Management
+        ↓
+Financial Data Aggregation
+        ↓
+Dashboard & Analytics
+        ↓
+Budget Monitoring
+        ↓
+AI-Powered Monthly Insights
+
+📸 Preview
+
+
+
+
+🔗 Links
+
+Live Demo: https://welth-ai-expense-tracker.vercel.app/
+
+
+
